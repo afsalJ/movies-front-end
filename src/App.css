@@ -1,0 +1,125 @@
+body{
+  margin:0;
+}
+
+.App{
+  font-family: Roboto,Myriad Pro,Tahoma,sans-serif;
+  height: 600px;
+}
+
+.link{
+  text-decoration: none;
+  margin: 0 10px 0 10px;
+}
+
+.Home{
+  background-color: #263238;
+  padding: 10px;
+  display: flex;
+  height: 10%;
+}
+
+
+.title{
+  color: rgb(37, 201, 165);
+  font-size: larger;
+  font-weight: bolder;
+  margin-right: 10px;
+}
+
+.author{
+  margin-right: 30px;
+}
+
+.nav{
+  align-items: center;
+  display: flex;
+  padding: 0 10px 0 10px;
+  margin: 4px;
+}
+.nav-component{
+  margin: 0 20px 0 20px;
+}
+
+.MoviesPage{
+  height: 90%;
+}
+
+.Movies{
+  padding: 40px;
+  height: 70%;
+  border: 5px solid black;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.Movie{
+  display: flex;
+  align-items: center;
+  height: 100px;
+  width: 400px;
+  margin: 10px;
+  border: 1px solid rgb(37, 201, 165);
+}
+
+.name{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  height: 100%;
+  border: 3px solid rgb(37, 201, 165);
+  background-color: black;
+  margin-right:30px
+}
+
+.others{
+  width: 60%;
+}
+
+.others *{
+  margin: 0px;
+}
+
+.cat{
+  font-size: medium;
+  font-weight: bolder;
+  color: #4d4d4d;
+}
+
+.End{
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.End *{ 
+  margin: 10px 10px 0 0;
+  height: 20%;
+}
+
+.Admin{
+  /* display: flex; */
+  background-color: whitesmoke;
+}
+
+.Add{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.add-content{
+  margin:5px;
+}
+
+.add-content label{
+  margin: 0 10px 0 10px;
+}
+
+.add-content button{
+  margin: 0 10px 0 10px;
+}
+
